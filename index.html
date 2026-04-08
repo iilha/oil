@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
-  <meta name="theme-color" content="#1976d2">
+  <meta name="theme-color" content="#795548">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>Taiwan Oil Prices</title>
@@ -634,7 +634,7 @@ let lastSearchCenter = null;
 async function initialize() {
   console.log('[Oil] Initializing oil price page...');
 
-  const savedLang = localStorage.getItem('ubike-lang');
+  const savedLang = localStorage.getItem('oil-lang');
   if (savedLang) isZh = savedLang === 'zh';
 
   updateUI();
@@ -1075,7 +1075,7 @@ function getPricePopupHtml(stationType) {
 // ============================================================
 function toggleLang() {
   isZh = !isZh;
-  localStorage.setItem('ubike-lang', isZh ? 'zh' : 'en');
+  localStorage.setItem('oil-lang', isZh ? 'zh' : 'en');
   updateUI();
   renderPrices();
   renderPredictions();
