@@ -1,3 +1,5 @@
+English | [繁體中文](README_zh.md)
+
 # Taiwan Oil Prices
 
 Progressive Web App displaying CPC (Taiwan Chinese Petroleum Corporation) gasoline prices and nearby gas stations on an interactive map.
