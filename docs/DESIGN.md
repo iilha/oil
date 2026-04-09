@@ -37,7 +37,6 @@ The app fetches oil price data from CPC via a Cloudflare Worker proxy and querie
 
 ### Navigation Header
 - Language toggle button (EN/中文)
-- Links to other apps (YouBike, Weather, Earthquake)
 - Note: Oil link NOT in nav header on other pages (only as card on index.html)
 
 ### Tab Navigation
