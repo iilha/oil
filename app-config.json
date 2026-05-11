@@ -1,7 +1,7 @@
 {
   "appId": "oil",
   "appName": "Oil Price Monitor",
-  "apiBase": "https://api.transport-pwa.com/oil",
+  "apiBase": "https://app.octileapp.workers.dev",
   "siteBase": "https://oil.transport-pwa.com/",
   "workerUrl": "https://api.octile.eu.cc",
   "eventsUrl": "https://api.octile.eu.cc/events",
