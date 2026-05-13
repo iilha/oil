@@ -2,7 +2,7 @@
   "appId": "oil",
   "appName": "Oil Price Monitor",
   "apiBase": "https://api.octile.eu.cc",
-  "siteBase": "https://oil.transport-pwa.com/",
+  "siteBase": "https://iilha.github.io/oil/",
   "features": {
     "events": true
   },
