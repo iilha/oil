@@ -1278,9 +1278,10 @@ function getPricePopupHtml(stationType) {
 // ============================================================
 // LANGUAGE
 // ============================================================
-function toggleLang() {
+async function toggleLang() {
   isZh = !isZh;
   localStorage.setItem('oil-lang', isZh ? 'zh' : 'en');
+  await applyLanguage(isZh ? 'zh' : 'en');
   updateUI();
   renderPrices();
   renderPredictions();
